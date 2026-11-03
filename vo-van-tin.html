@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Võ Văn Tín - Thành Viên Nhóm 9</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="x.css">
+</head>
+
+<body>
+    <!-- Ambient Background Lighting -->
+    <div class="ambient-bg">
+        <div class="ambient-orb orb-1"></div>
+        <div class="ambient-orb orb-2"></div>
+        <div class="ambient-orb orb-3"></div>
+    </div>
+
+    <div class="container">
+        <!-- Top Navigation Bar -->
+        <nav class="navbar">
+            <a href="index.html" class="nav-brand">
+                <span class="badge-team">Nhóm 9</span>
+                <span class="brand-name">Võ Văn Tín</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#gioi-thieu" class="active">Giới Thiệu</a></li>
+                <li><a href="#muc-tieu">Mục Tiêu</a></li>
+                <li><a href="#ky-nang">Kỹ Năng</a></li>
+                <li><a href="#du-an">Dự Án</a></li>
+                <li><a href="#hoc-van">Học Vấn</a></li>
+                <li><a href="#lien-he">Liên Hệ</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="btn-settings" type="button" title="Cài đặt">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <a href="index.html" class="btn-back-portal" title="Quay lại danh sách nhóm">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Về Cổng Nhóm 9</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Main Hero / Introduction Section -->
+        <main class="hero-layout" id="gioi-thieu">
+            <!-- Left Card: Personal Profile & Details -->
+            <section class="intro-card">
+                <div>
+                    <span class="intro-greeting"><i class="fas fa-code"></i> Xin chào, mình là Thành viên nhóm 9</span>
+                    <h1 class="intro-name">Võ Văn <span class="name-highlight">Tín</span></h1>
+
+                    <!-- Career Goal Badge -->
+                    <div class="career-badge-box">
+                        <span class="career-tag-label">Định hướng nghề nghiệp</span>
+                        <h2 class="career-title">Frontend Developer / Fullstack Trainer</h2>
+                    </div>
+
+                    <!-- Intro paragraph -->
+                    <p class="intro-desc">
+                        Hiện là sinh viên chuyên ngành Công nghệ Thông tin tại Trường ĐH Giao thông Vận tải TP.HCM (UTH).
+                    </p>
+
+                    <!-- Details Grid: Đam mê, Sở thích, Món ăn yêu thích, Sở trường, Tuổi -->
+                    <div class="details-grid">
+                        <!-- Tuổi -->
+                        <div class="detail-item">
+                            <div class="detail-icon"><i class="fas fa-birthday-cake"></i></div>
+                            <div class="detail-info">
+                                <span class="detail-label">Độ tuổi</span>
+                                <span class="detail-val">20 tuổi (Gen Z)</span>
+                            </div>
+                        </div>
+
+                        <!-- Sở trường -->
+                        <div class="detail-item">
+                            <div class="detail-icon"><i class="fas fa-bolt"></i></div>
+                            <div class="detail-info">
+                                <span class="detail-label">Sở trường</span>
+                                <span class="detail-val">Đá bóng</span>
+                            </div>
+                        </div>
+
+                        <!-- Món ăn yêu thích -->
+                        <div class="detail-item full-width">
+                            <div class="detail-icon"><i class="fas fa-utensils"></i></div>
+                            <div class="detail-info">
+                                <span class="detail-label">Món ăn yêu thích</span>
+                                <span class="detail-val">Phở bò tái nạm, Cơm tấm sườn bì chả, Bún bò Huế</span>
+                            </div>
+                        </div>
+
+                        <!-- Đam mê -->
+                        <div class="detail-item full-width">
+                            <div class="detail-icon"><i class="fas fa-fire"></i></div>
+                            <div class="detail-info">
+                                <span class="detail-label">Đam mê</span>
+                                <span class="detail-val">Kiếm tiền</span>
+                            </div>
+                        </div>
+
+                        <!-- Sở thích -->
+                        <div class="detail-item full-width">
+                            <div class="detail-icon"><i class="fas fa-heart"></i></div>
+                            <div class="detail-info">
+                                <span class="detail-label">Sở thích</span>
+                                <span class="detail-val">Chơi game giải trí (PC & Mobile)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call-to-action buttons -->
+                <div class="intro-actions">
+                    <a href="#du-an" class="btn-primary-action">
+                        <span>Khám phá dự án</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="mailto:vovantin446@gmail.com" class="btn-secondary-action">
+                        <i class="fas fa-envelope"></i>
+                        <span>Gửi tin nhắn</span>
+                    </a>
+                    <a href="https://github.com/vovantin446" target="_blank" rel="noopener noreferrer" class="btn-secondary-action">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Right Profile Card -->
+            <aside class="profile-card">
+                <div class="profile-banner"></div>
+                <div class="profile-content">
+                    <div class="profile-avatar-box">
+                        <img src="vantin.jpg" alt="Võ Văn Tín" class="profile-avatar-img"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                            onload="this.style.display='block'; this.nextElementSibling.style.display='none';">
+                        <div class="profile-avatar-placeholder" style="display: none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <span class="profile-status-dot" title="Đang trực tuyến"></span>
+                    </div>
+
+                    <h2 class="profile-name">Võ Văn Tín</h2>
+                    <p class="profile-subtitle">Thành Viên Nhóm 9 • Đại học UTH</p>
+
+                    <!-- Info list matching the screenshot style -->
+                    <div class="profile-info-list">
+                        <div class="profile-info-item">
+                            <i class="fas fa-university"></i>
+                            <div>Trường: <strong>ĐH GTVT TP.HCM (UTH)</strong></div>
+                        </div>
+                        <div class="profile-info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>Chuyên ngành: <strong>Công nghệ Thông tin</strong></div>
+                        </div>
+                        <div class="profile-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>Email: <strong>vovantin446@gmail.com</strong></div>
+                        </div>
+                        <div class="profile-info-item">
+                            <i class="fas fa-user-clock"></i>
+                            <div>Tuổi: <strong>20 tuổi</strong></div>
+                        </div>
+                        <div class="profile-info-item">
+                            <i class="fas fa-quote-left"></i>
+                            <div>Châm ngôn: <em>"Cố gắng hết sức"</em></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <!-- Section: Mục Tiêu -->
+        <section class="content-section" id="muc-tieu">
+            <div class="section-header">
+                <i class="fas fa-bullseye"></i>
+                <h3 class="section-title">Mục Tiêu Phát Triển Bản Thân</h3>
+            </div>
+            <div class="details-grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px;">
+                <!-- Mục tiêu ngắn hạn -->
+                <div class="detail-item">
+                    <div class="detail-icon" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8;">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="detail-info">
+                        <span class="detail-label" style="color: #38bdf8;">Mục tiêu ngắn hạn (Trong trường)</span>
+                        <span class="detail-val">Hoàn thành xuất sắc chương trình đào tạo tại ĐH UTH với điểm số cao, nắm vững kiến thức các môn chuyên ngành và hoàn thiện đồ án tốt nghiệp loại Giỏi.</span>
+                    </div>
+                </div>
+
+                <!-- Mục tiêu công nghệ -->
+                <div class="detail-item">
+                    <div class="detail-icon" style="background: rgba(168, 85, 247, 0.15); color: #c084fc;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="detail-info">
+                        <span class="detail-label" style="color: #c084fc;">Nâng cao kỹ năng chuyên môn</span>
+                        <span class="detail-val">Làm chủ hệ sinh thái React.js, Next.js và TypeScript; rèn luyện khả năng tối ưu hóa hiệu năng web (Core Web Vitals) và thực hành Clean Code mỗi ngày.</span>
+                    </div>
+                </div>
+
+                <!-- Mục tiêu trung hạn -->
+                <div class="detail-item">
+                    <div class="detail-icon" style="background: rgba(52, 211, 153, 0.15); color: #34d399;">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="detail-info">
+                        <span class="detail-label" style="color: #34d399;">Mục tiêu trung hạn (1 - 2 năm tới)</span>
+                        <span class="detail-val">Gia nhập công ty công nghệ với vị trí Frontend Developer, tham gia vào các dự án thực tế quy mô lớn, tích lũy kinh nghiệm làm việc chuyên nghiệp trong môi trường Agile/Scrum.</span>
+                    </div>
+                </div>
+
+                <!-- Mục tiêu dài hạn -->
+                <div class="detail-item">
+                    <div class="detail-icon" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24;">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="detail-info">
+                        <span class="detail-label" style="color: #fbbf24;">Mục tiêu dài hạn (3 - 5 năm)</span>
+                        <span class="detail-val">Phát triển toàn diện thành Senior Fullstack Developer / Tech Lead, có khả năng thiết kế kiến trúc hệ thống, dẫn dắt đội ngũ kỹ thuật và xây dựng các sản phẩm số mang lại giá trị cao cho cộng đồng.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Kỹ Năng -->
+        <section class="content-section" id="ky-nang">
+            <div class="section-header">
+                <i class="fas fa-laptop-code"></i>
+                <h3 class="section-title">Kỹ Năng Chuyên Môn & Công Nghệ</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <div class="skill-head">
+                        <span class="skill-name"><i class="fab fa-html5" style="color: #e34f26; margin-right: 6px;"></i>HTML5</span>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-head">
+                        <span class="skill-name"><i class="fab fa-css3-alt" style="color: #1572b6; margin-right: 6px;"></i>CSS3</span>
+                        <span class="skill-pct">88%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 88%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-head">
+                        <span class="skill-name"><i class="fab fa-js" style="color: #f7df1e; margin-right: 6px;"></i>JavaScript</span>
+                        <span class="skill-pct">78%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 78%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-head">
+                        <span class="skill-name"><i class="fab fa-git-alt" style="color: #f05032; margin-right: 6px;"></i>Git & GitHub Workflow</span>
+                        <span class="skill-pct">82%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 82%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-head">
+                        <span class="skill-name"><i class="fas fa-code" style="color: #a855f7; margin-right: 6px;"></i>C/C++ & Cấu trúc dữ liệu</span>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-head">
+                        <span class="skill-name"><i class="fas fa-database" style="color: #06b6d4; margin-right: 6px;"></i>Cơ sở dữ liệu & SQL</span>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Dự Án -->
+        <section class="content-section" id="du-an">
+            <div class="section-header">
+                <i class="fas fa-project-diagram"></i>
+                <h3 class="section-title">Dự Án Học Tập & Sản Phẩm Thực Tế</h3>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div>
+                        <span class="project-tag">Dự án nhóm giữa kỳ • Hoàn thành</span>
+                        <h4 class="project-title">Website Giới Thiệu Thành Viên Nhóm 9</h4>
+                        <p class="project-desc">Xây dựng cổng thông tin giới thiệu thành viên Nhóm 9 với giao diện Dark Theme hiện đại, hiệu ứng ánh sáng ambient, thiết kế tương thích hoàn hảo trên di động và máy tính.</p>
+                        <div class="project-techs">
+                            <span class="project-tech">HTML5</span>
+                            <span class="project-tech">CSS3</span>
+                            <span class="project-tech">JavaScript</span>
+                            <span class="project-tech">UI/UX Design</span>
+                        </div>
+                    </div>
+                    <a href="index.html" class="project-link">
+                        <span>Xem chi tiết cổng nhóm</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <span class="project-tag">Học phần Lập trình Web • Đang thực hiện</span>
+                        <h4 class="project-title">Chuỗi Bài Tập Thực Hành Web UTH</h4>
+                        <p class="project-desc">Hệ thống bài tập thực hành theo từng tuần tại giảng đường UTH: xây dựng form tương tác, xử lý logic DOM, thiết kế hệ thống layout đa cột và tối ưu hóa trải nghiệm người dùng.</p>
+                        <div class="project-techs">
+                            <span class="project-tech">Responsive Layout</span>
+                            <span class="project-tech">Form Validation</span>
+                            <span class="project-tech">DOM Manipulation</span>
+                            <span class="project-tech">Flexbox & Grid</span>
+                        </div>
+                    </div>
+                    <a href="file:///D:/BAITAP_LTWEB_DH.pdf" target="_blank" rel="noopener noreferrer" class="project-link">
+                        <span>Xem & Tải xuống tài liệu</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <span class="project-tag">Dự án cá nhân • Portfolio</span>
+                        <h4 class="project-title">Website Hồ Sơ Năng Lực Cá Nhân</h4>
+                        <p class="project-desc">Trang portfolio cá nhân hiện đại giúp làm nổi bật định hướng nghề nghiệp Frontend Developer, lộ trình học tập, kỹ năng chuyên môn và các kênh liên hệ trực quan.</p>
+                        <div class="project-techs">
+                            <span class="project-tech">Personal Branding</span>
+                            <span class="project-tech">Glassmorphism</span>
+                            <span class="project-tech">Clean Code</span>
+                            <span class="project-tech">FontAwesome</span>
+                        </div>
+                    </div>
+                    <a href="#gioi-thieu" class="project-link">
+                        <span>Xem chi tiết hồ sơ</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <span class="project-tag">Môn Cấu trúc dữ liệu • Thực hành</span>
+                        <h4 class="project-title">Ứng Dụng Thuật Toán & Quản Lý Dữ Liệu</h4>
+                        <p class="project-desc">Các chương trình mô phỏng quản lý danh sách, giải thuật tìm kiếm, sắp xếp và tối ưu độ phức tạp thuật toán phục vụ nền tảng lập trình hướng đối tượng.</p>
+                        <div class="project-techs">
+                            <span class="project-tech">C/C++</span>
+                            <span class="project-tech">Algorithms</span>
+                            <span class="project-tech">OOP</span>
+                            <span class="project-tech">Data Structures</span>
+                        </div>
+                    </div>
+                    <span class="project-link" style="color: var(--text-muted); cursor: default;">
+                        <span></span>
+                        <i class="fas fa-check-circle"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Học Vấn -->
+        <section class="content-section" id="hoc-van">
+            <div class="section-header">
+                <i class="fas fa-user-graduate"></i>
+                <h3 class="section-title">Học Vấn & Lộ Trình Đào Tạo</h3>
+            </div>
+            <div class="profile-info-list" style="gap: 16px;">
+                <div class="profile-info-item">
+                    <i class="fas fa-university"></i>
+                    <div>
+                        <strong style="color: #ffffff; font-size: 1.05em;">Trường Đại học Giao thông Vận tải TP.HCM (UTH)</strong>
+                        <p style="font-size: 0.88em; color: var(--text-secondary); margin-top: 3px;">Chuyên ngành: <strong>Công nghệ Thông tin</strong> • Khoa Công nghệ Thông tin</p>
+                        <p style="font-size: 0.84em; color: #818cf8; margin-top: 3px;"><i class="fas fa-graduation-cap"></i> Hệ đào tạo: Đại học Chính quy • Trạng thái: Sinh viên tích cực</p>
+                    </div>
+                </div>
+
+                <div class="profile-info-item">
+                    <i class="fas fa-route"></i>
+                    <div>
+                        <strong style="color: #ffffff; font-size: 1.05em;">Lộ Trình Đào Tạo & Định Hướng Nghề Nghiệp</strong>
+                        <p style="font-size: 0.88em; color: var(--text-secondary); margin-top: 4px; line-height: 1.7;">
+                            <span style="color: #38bdf8; font-weight: 600;">• Giai đoạn 1 (Nền tảng):</span> Tiếp thu tư duy lập trình với C/C++, Toán rời rạc, Cấu trúc dữ liệu & Giải thuật.<br>
+                            <span style="color: #a855f7; font-weight: 600;">• Giai đoạn 2 (Chuyên sâu Web & Hệ thống):</span> Làm chủ công nghệ Web Frontend (HTML5, CSS3, JavaScript), Hệ cơ sở dữ liệu quan hệ (SQL), Mạng máy tính.<br>
+                            <span style="color: #34d399; font-weight: 600;">• Giai đoạn 3 (Ứng dụng & Thực tiễn):</span> Tiếp cận Frameworks hiện đại (React/Node.js), Lập trình hướng đối tượng, làm việc nhóm theo mô hình Git Workflow và hoàn thiện các đồ án thực tế.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile-info-item">
+                    <i class="fas fa-book-reader"></i>
+                    <div>
+                        <strong style="color: #ffffff; font-size: 1.05em;">Các Môn Học Cốt Lõi Đã & Đang Tích Lũy</strong>
+                        <p style="font-size: 0.88em; color: var(--text-secondary); margin-top: 3px;">
+                            Lập trình Web • Kỹ thuật lập trình • Cấu trúc dữ liệu & Giải thuật • Hệ cơ sở dữ liệu • Mạng máy tính • Kiến trúc máy tính & Hệ điều hành • Phân tích & Thiết kế hệ thống
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile-info-item">
+                    <i class="fas fa-award"></i>
+                    <div>
+                        <strong style="color: #ffffff; font-size: 1.05em;">Kỹ Năng Mềm & Phương Pháp Học Tập</strong>
+                        <p style="font-size: 0.88em; color: var(--text-secondary); margin-top: 3px;">
+                            Kỹ năng làm việc nhóm (Teamwork) • Khả năng tự nghiên cứu tài liệu kỹ thuật tiếng Anh • Kỹ năng thuyết trình & phản biện • Quản lý thời gian và cam kết tiến độ dự án.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Liên Hệ -->
+        <section class="content-section" id="lien-he">
+            <div class="section-header">
+                <i class="fas fa-comments"></i>
+                <h3 class="section-title">Kết Nối & Liên Hệ</h3>
+            </div>
+            <div class="contact-box">
+                <div class="contact-info-list">
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <span>Võ Văn Tín (Thành viên Nhóm 9)</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: <a href="mailto:vovantin446@gmail.com" style="color: #818cf8; text-decoration: none;">vovantin446@gmail.com</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span><a href="tel:0377794215" style="color: inherit; text-decoration: none;">0377 794 215</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>TP. Hồ Chí Minh, Việt Nam</span>
+                    </div>
+                </div>
+
+                <div class="contact-social-links">
+                    <a href="https://github.com/vovantin446" target="_blank" rel="noopener noreferrer" class="social-link-btn" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:vovantin446@gmail.com" class="social-link-btn" title="Gửi Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.facebook.com/vantin.vo.102?locale=vi_VN" target="_blank" rel="noopener noreferrer" class="social-link-btn" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tniisme/" target="_blank" rel="noopener noreferrer" class="social-link-btn" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Võ Văn Tín • Thành viên Nhóm 9 • Thiết kế đồ án giữa kỳ UTH <span class="heart"><i class="fas fa-heart"></i></span></p>
+        </footer>
+    </div>
+
+    <!-- Active Navigation Link on Scroll -->
+    <script src="y.js"></script>
+</body>
+
+</html>
